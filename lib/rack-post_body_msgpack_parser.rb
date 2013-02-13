@@ -1,4 +1,4 @@
-require "rack-post_body_msgpack_parser/version"
+require "rack/post_body_msgpack_parser/version"
 
 module Rack
   module PostBodyMsgpackParser
