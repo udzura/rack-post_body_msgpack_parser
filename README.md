@@ -22,6 +22,7 @@ Just `use` it
 
 ```ruby
 require 'sinatra'
+require 'rack/post_body_msgpack_parser'
 use Rack::PostBodyMsgpackParser
 
 post '/' do
