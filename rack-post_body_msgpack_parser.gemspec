@@ -25,4 +25,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rack-test', '>= 0'
   gem.add_development_dependency 'sinatra', '>= 1.3.0'
   gem.add_development_dependency 'sinatra-contrib', '>= 0'
+
+  gem.add_development_dependency 'faraday'
 end
