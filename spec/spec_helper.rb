@@ -7,6 +7,7 @@
 
 require 'rack/test'
 require 'sinatra/test_helpers'
+require 'pry' if ENV['PRY_DEBUG']
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true

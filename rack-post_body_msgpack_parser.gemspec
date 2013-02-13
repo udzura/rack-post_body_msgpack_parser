@@ -21,6 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'msgpack', '>= 0'
   gem.add_development_dependency 'rake', '>= 0'
   gem.add_development_dependency 'rspec', '>= 0'
+  gem.add_development_dependency 'pry', '>= 0'
   gem.add_development_dependency 'rack-test', '>= 0'
   gem.add_development_dependency 'sinatra', '>= 1.3.0'
   gem.add_development_dependency 'sinatra-contrib', '>= 0'
